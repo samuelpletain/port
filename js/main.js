@@ -16,7 +16,6 @@ function createListItems(list, items) {
     let a = document.createElement('a')
     let linkText = document.createTextNode(item.label)
     a.appendChild(linkText)
-    a.title = item.label
     a.href = "./" + item.url
     list.appendChild(li).appendChild(a)
   })
