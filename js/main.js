@@ -1,13 +1,13 @@
 const list = document.getElementById('list');
 const links = [
   {
-    label: "Week 1 Notes",
+    label: "Week 1 - Notes",
     url: "week1/index.html"
   },
   {
-    label: "Another item",
-    url: "week2/test.html"
-  }
+    label: "Week 1 - Story Writter",
+    url: "week1/story_editor.html"
+  },
 ]
 
 function createListItems(list, items) {
