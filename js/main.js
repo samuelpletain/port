@@ -17,8 +17,8 @@ const links = [
     url: "week2/group/index.html"
   },
   {
-    label: "Week 2 - Ninja Quizz",
-    url: "week2/quizz/index.html"
+    label: "Week 2 - Quiz Ninja",
+    url: "week2/quiz/index.html"
   },
 ]
 
