@@ -8,6 +8,18 @@ const links = [
     label: "Week 1 - Story Writter",
     url: "week1/story_editor.html"
   },
+  {
+    label: "Week 2 - Notes",
+    url: "week2/index.html"
+  },
+  {
+    label: "Week 2 - Group activity",
+    url: "week2/group/index.html"
+  },
+  {
+    label: "Week 2 - Ninja Quizz",
+    url: "week2/quizz/index.html"
+  },
 ]
 
 function createListItems(list, items) {
