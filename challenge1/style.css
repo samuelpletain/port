@@ -1,0 +1,15 @@
+.app {
+  max-width: 800px;
+  margin: auto;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: 1rem 1fr 1rem;
+  align-items: center;
+}
+
+.footer {
+  display: grid;
+  align-items: center;
+}

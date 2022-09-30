@@ -2,23 +2,43 @@ const list = document.getElementById('list');
 const links = [
   {
     label: "Week 1 - Notes",
-    url: "week1/index.html"
+    url: "week01/index.html"
   },
   {
     label: "Week 1 - Story Writter",
-    url: "week1/story_editor.html"
+    url: "week01/story_editor.html"
   },
   {
     label: "Week 2 - Notes",
-    url: "week2/index.html"
+    url: "week02/index.html"
   },
   {
-    label: "Week 2 - Group activity",
-    url: "week2/group/index.html"
+    label: "Week 2 - Group Activity",
+    url: "week02/group/index.html"
   },
   {
     label: "Week 2 - Quiz Ninja",
-    url: "week2/quiz/index.html"
+    url: "week02/quiz/index.html"
+  },
+  {
+    label: "Week 3 - Notes",
+    url: "week03/index.html"
+  },
+  {
+    label: "Week 3 - Group Activity",
+    url: "week03/group/Array Cardio 💪.html"
+  },
+  {
+    label: "Week 3 - Group Activity Stretch Goals",
+    url: "week03/group/Array Cardio 💪💪.html"
+  },
+  {
+    label: "Week 3 - Quiz Ninja",
+    url: "week03/quiz/index.html"
+  },
+  {
+    label: "Challenge 1",
+    url: "challenge1/index.html"
   },
 ]
 
