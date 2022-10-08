@@ -202,3 +202,5 @@ const fly = mainCharacter.fly;
 fly.call(supportCharacter); 
 
 // ES6 can turn array-like object into arrays with Array.from() or the spread operator
+
+// I was already familiar with the section Modular JS of chapter 15
