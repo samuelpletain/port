@@ -37,6 +37,22 @@ const links = [
     url: "week03/quiz/index.html"
   },
   {
+    label: "Week 4 - Notes",
+    url: "week04/index.html"
+  },
+  {
+    label: "Week 4 - Quiz Ninja (Part 1)",
+    url: "week04/quiz_1/index.html"
+  },
+  {
+    label: "Week 4 - Quiz Ninja (Part 2)",
+    url: "week04/quiz_2/index.html"
+  },
+  {
+    label: "Week 4 - Group Activity",
+    url: "week04/group/index.html"
+  },
+  {
     label: "Challenge 1",
     url: "challenge1/index.html"
   },
