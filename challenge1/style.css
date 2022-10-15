@@ -1,6 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .app {
-  max-width: 800px;
+  max-width: 600px;
   margin: auto;
+  position: relative;
+  min-height: 100vh;
+  padding: 2rem;
 }
 
 .todo {
@@ -9,7 +18,25 @@
   align-items: center;
 }
 
+.todo--completed > p {
+  text-decoration: line-through;
+}
+
 .footer {
   display: grid;
   align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50%;
+  margin: auto;
+}
+
+.footer a {
+  text-align: center;
+}
+
+.create_todo {
+  position: absolute;
+  bottom: 2rem;
+  justify-content: center;
+  width: calc(100% - 4rem);
 }

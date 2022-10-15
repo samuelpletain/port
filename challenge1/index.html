@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ToDo App</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./js/main.js" type="module" defer></script>
 </head>
 <body>
   <main class="app">
     <h1 class="app__title">
       Todos
     </h1>
-    <div id="todoList" class="app__todo_list todo_list">
+    <ul id="todoList" class="app__todo_list todo_list">
       <div class="todo_list__todo todo">
         <input type="checkbox" name="" id="" class="todo__toggle">
         <p class="todo__content">Task</p>
@@ -39,13 +40,13 @@
         <a href="" class="footer__filter">Active</a>
         <a href="" class="footer__filter">Completed</a>
       </div>
-    </div>
+    </ul>
     <div class="create_todo">
       <form action="create_todo__form form">
         <input type="text" class="form__input">
         <input type="button" value="+" class="form__button">
       </form>
     </div>
-  </main>
+  </main> 
 </body>
 </html>
