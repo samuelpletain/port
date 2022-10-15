@@ -53,6 +53,14 @@ const links = [
     url: "week04/group/index.html"
   },
   {
+    label: "Week 5 - Notes",
+    url: "week05/index.html"
+  },
+  {
+    label: "Week 5 - Group Activity",
+    url: "week05/group/index.html"
+  },
+  {
     label: "Challenge 1",
     url: "challenge1/index.html"
   },
