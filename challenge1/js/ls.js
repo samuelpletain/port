@@ -1,10 +1,10 @@
 const ls = {
-  saveData(todoList) {
-    localStorage.setItem('todos', todoList);
+  saveData(key, value) {
+    window.localStorage.setItem(key, JSON.stringify(value));
   },
-  getSavedData() {
-    return localStorage('todos');
+  getSavedData(key) {
+    return JSON.parse(window.localStorage.getItem(key));
   }
 }
 
-export default ls
+export default ls;
