@@ -64,6 +64,14 @@ const links = [
     label: "Challenge 1",
     url: "challenge1/index.html"
   },
+  {
+    label: "Week 7 - Notes",
+    url: "week07/index.html"
+  },
+  {
+    label: "Week 7 - Quiz Ninja",
+    url: "week07/quiz/index.html"
+  },
 ]
 
 function createListItems(list, items) {
