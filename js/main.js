@@ -72,6 +72,14 @@ const links = [
     label: "Week 7 - Quiz Ninja",
     url: "week07/quiz/index.html"
   },
+  {
+    label: "Week 8 - Notes",
+    url: "week08/index.html"
+  },
+  {
+    label: "Week 8 - Group Activity",
+    url: "week08/group/index.html"
+  },
 ]
 
 function createListItems(list, items) {
