@@ -90,20 +90,20 @@ function youAreHere(position) {
 
 // Web workers
 // Web workers allow to do some heavy lifting without letting the application hang. To do so, we define a new Worker object that takes a file as an argument.
-const worker = new Worker('task.js')
+//const worker = new Worker('task.js')
 
 // Sending data to the worker. 
-worker.postMessage('Some data')
+//worker.postMessage('Some data')
 
 // Getting data from the worker (in the js file used).
-self.postMessage('Result')
+//self.postMessage('Result')
 
 // We can catch the result with the 'message' event listener. The data is found in event.data
 
 // Stopping the worker once it is done working
-worker.terminate()
+//worker.terminate()
 // Or from inside the js file
-self.close()
+//self.close()
 
 // Web sockets
 
