@@ -23,9 +23,10 @@ console.log(`Number of pages visited before arriving on this page, this page inc
 
 // window.history.go(X) allows to move X amount of pages. If X is positive, it goes forward, if negative, backward, and if equals to 0 reloads the current page. window.history.go(1) is the same as window.history.forward(), and window.history.go(-1) as window.history.back()
 
-/* 
-const popup = window.open('https://www.sitepoint.com', 'Sitepoint', 'width=400, height=400, resizable=yes')
-popup
+
+const popUpButton = document.getElementById('button')
+popUpButton.addEventListener('click', () => window.open('https://www.sitepoint.com', 'Sitepoint', 'width=400, height=400, resizable=yes'))
+/*
 setInterval(() => {
   popup.close()
 }, 5000)
