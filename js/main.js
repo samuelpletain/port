@@ -80,6 +80,14 @@ const links = [
     label: "Week 8 - Group Activity",
     url: "week08/group/index.html"
   },
+  {
+    label: "Week 9 - Notes",
+    url: "week09/index.html"
+  },
+  {
+    label: "Week 9 - Group Activity",
+    url: "week09/group/index.html"
+  },
 ]
 
 function createListItems(list, items) {
