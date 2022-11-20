@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 2rem;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: .5rem;
+}
+
+.pokemon {
+  border-radius: 50%;
+  padding: .5rem;
+  background-color: #adadad;
+}
+
+.pokemon img {
+  width: 100px;
+}
