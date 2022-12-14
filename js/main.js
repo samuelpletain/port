@@ -102,7 +102,7 @@ const links = [
   },
   {
     label: "Challenge 2",
-    url: "challenge2/flags/dist/index.html"
+    url: "challenge2/app/index.html"
   }
 ]
 
