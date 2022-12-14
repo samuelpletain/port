@@ -96,6 +96,14 @@ const links = [
     label: "Week 10 - Group Activity",
     url: "week10/group/index.html"
   },
+  {
+    label: "Week 11 - Group Activity",
+    url: "week11/group/client/index.html"
+  },
+  {
+    label: "Challenge 2",
+    url: "challenge2/flags/dist/index.html"
+  }
 ]
 
 function createListItems(list, items) {
