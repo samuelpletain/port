@@ -1,0 +1,2 @@
+[submodule "flags"]
+ path = './challenge2/flags/dist'
