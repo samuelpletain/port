@@ -20,6 +20,7 @@ export default class Flags {
     await fetch(url)
       .then(response => response.json())
       .then(data => dataset = data)
+      .catch(error => console.log(error))
 
     let res = []
     for(let country of dataset) {
